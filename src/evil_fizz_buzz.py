@@ -1,7 +1,7 @@
 class EvilFizzBuzz:
     def compute(self):
         comma_delimited_string = "1"
-        for i in range(2, 100):
+        for i in range(2, 101):
             comma_delimited_string += ("," + self.convert(i))
 
         return comma_delimited_string
@@ -14,3 +14,6 @@ class EvilFizzBuzz:
         elif i % 5 == 0:
             return "buzz"
         return str(i)
+
+    def print(self):
+        print(self.compute())
