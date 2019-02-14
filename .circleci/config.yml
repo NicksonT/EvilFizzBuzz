@@ -20,5 +20,9 @@ jobs:
           command: pwd
 
       - run:
+          name: Get the contents of current directory
+          command: ls -al
+
+      - run:
           name: Get python
           command: which python3
