@@ -16,5 +16,5 @@ jobs:
           command: date
 
       - run:
-          name: Run the tests
-          command: python3 test/test.py
+          name: Get current directory
+          command: pwd
