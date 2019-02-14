@@ -10,6 +10,5 @@ class EvilFizzBuzzTest(unittest.TestCase):
         self.assertEqual("1", comma_delimited_string[0])
 
 
-
 if __name__ == "__main__":
     unittest.main()

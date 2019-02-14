@@ -29,4 +29,4 @@ jobs:
 
       - run:
           name: Run the tests
-          command: python3 test/test.py
+          command: PYTHONPATH=$PYTHONPATH:test python3 test/test.py
