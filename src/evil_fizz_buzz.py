@@ -1,3 +1,5 @@
 class EvilFizzBuzz:
-    def compute(self):
-        return "1"
+    def compute(self, number):
+        if number % 5 == 0:
+            return "buzz"
+        return str(number)
