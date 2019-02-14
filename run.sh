@@ -1,0 +1,1 @@
+python3 -c "from src.evil_fizz_buzz import *; EvilFizzBuzz().print()"
