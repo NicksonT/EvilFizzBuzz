@@ -7,4 +7,6 @@ class EvilFizzBuzz:
         return comma_delimited_string
 
     def convert(self, i):
+        if i % 3 == 0:
+            return "Fizz"
         return str(i)
