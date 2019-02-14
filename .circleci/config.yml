@@ -26,3 +26,7 @@ jobs:
       - run:
           name: Get python
           command: which python3
+
+      - run:
+          name: Run the tests
+          command: python3 test/test.py
