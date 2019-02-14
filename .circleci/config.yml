@@ -18,3 +18,7 @@ jobs:
       - run:
           name: Get current directory
           command: pwd
+
+      - run:
+          name: Get python
+          command: which python3
